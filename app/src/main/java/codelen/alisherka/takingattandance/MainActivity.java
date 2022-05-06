@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
 //                    });
 
                 }else{
-                    Log.v("User", "Data Error" + result.getError().toString());
+                    Log.v("User", "Login Error");
                 }
             }
         });
